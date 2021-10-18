@@ -12,6 +12,12 @@ Each subdirectory contains some code that needs refactoring.
 
 Refactor timestamp.py.  2 or 3 refactorings are possible.
 
+Refactor:
+
+1. Using python naming conventions instead variable `args`.
+2. Extract the condition checking time to method named `is_valid_time`.
+3. Remove unnecessary else statement.
+
 
 ## `game_framework/gamelib.py`
 
