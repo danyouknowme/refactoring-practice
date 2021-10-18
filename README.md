@@ -30,10 +30,10 @@ Look for refactorings in the class `GameApp`.
 
 Refactor:
 
-1. Replace side effect with return value in method create_canvas.
-2. Add parameters instead of accessing attributes in method create_canvas.
+1. Replace side effect with return value in method `create_canvas`.
+2. Add parameters instead of accessing attributes in method `create_canvas`.
 3. Replace the string literal with name constant.
-4. Add method to add the element (add_element) and remove the element (remove_element) in GameApp class.
+4. Add method to add the element (`add_element`) and remove the element (`remove_element`) in GameApp class.
 5. Replace the default value with constant value.
 
 ## `recipe/recipe.py` and `recipe/main.py`
