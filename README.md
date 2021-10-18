@@ -28,6 +28,14 @@ Look for refactorings in the class `GameApp`.
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
   - Hint: `elements`
 
+Refactor:
+
+1. Replace side effect with return value in method create_canvas.
+2. Add parameters instead of accessing attributes in method create_canvas.
+3. Replace the string literal with name constant.
+4. Add method to add the element (add_element) and remove the element (remove_element) in GameApp class.
+5. Replace the default value with constant value.
+
 ## `recipe/recipe.py` and `recipe/main.py`
 
 This uses a `dataclass`, which requires Python 3.7.
